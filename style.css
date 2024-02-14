@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.main-container {
+    width: 70%;
+    height: 500px;
+    background-color: rgb(179, 195, 212);
+    border: 2px solid rgb(56, 53, 48);
+    border-radius: 5px;
+    padding: 15px;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main-container .heading {
+    width: 70%;
+    font-size: 30px;
+    text-align: center;
+    border: 2px solid rgb(56, 53, 48);
+    padding: 20px;
+    height: 100px;
+}
+
+.main-container .container {
+    width: 70%;
+    border: 2px solid rgb(56, 53, 48);
+    border-radius: 5px;
+    padding: 20px;
+    height: 300px;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container .inside1 {
+    width: 50%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.container .inside2 {
+    width: 30%;
+    border: 2px solid rgb(56, 53, 48);
+    border-radius: 5px;
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.inside1 .content {
+    width: 30%;
+    border: 0.5px solid rgb(83, 105, 180);
+    padding: 10px;
+    text-align: center;
+    font-size: 50px;
+    height: 87px;
+
+}
+
+.inside2 .restart {
+    width: 100%;
+    border: 2px solid rgb(83, 105, 180);
+    background-color: aquamarine;
+    border-radius: 5px;
+    height: 60px;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.inside2 .winner {
+    width: 100%;
+    border: 2px solid rgb(83, 105, 180);
+    height: 150px;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+}
