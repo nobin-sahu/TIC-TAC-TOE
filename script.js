@@ -18,6 +18,7 @@ function restart() {
         document.querySelectorAll('.content')[i].innerText = "";
         visited[i] = false;
         data[i] = '.';
+        document.querySelectorAll('.content')[i].style.color = "black";
     }
     counter = 0;
     document.querySelector('.winner').innerText = "ALL THE BEST";
@@ -86,5 +87,10 @@ function displayresult(w, ...args) {
         document.querySelectorAll('.content')[args[i]].style.color = "green";
     }
 
+    for (let i = 0; i < 9; i++) {
+        visited[i] = true;
+    }
+
     setTimeout(() => { restart() }, 2000);
+
 }
