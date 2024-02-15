@@ -8,7 +8,7 @@
 2. Simple and intuitive user interface.
 3. Clear winner declaration with highlighted winning combinations.
 4. Reset option for a new game.
-5. **Responsive Layout**
+5. **Responsive design for a seamless experience on various devices.**
 
 ## How to Play:
 1. Click to place 'X' or 'O' on the grid.
